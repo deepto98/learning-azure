@@ -78,4 +78,5 @@ You define function apps to logically group and structure your functions and a c
 			iii. Anonymous - no key<br><br>
 		To get the key, under Developer, select Function Keys. The Function Keys pane for your function opens.<br><br>
 ![image](https://user-images.githubusercontent.com/91651033/161318964-5acc90f4-0adb-4fd5-a82b-4fe57ed55d09.png)<br><br>
+		If your Authorization level is set to Function, you can use either a function or a host key. If your Authorization level is set to Admin, you must supply a host key.<br><br>
 		This key has to be sent as a query string parameter named code, or as an HTTP header (preferred) named x-functions-key, along with the function url.
